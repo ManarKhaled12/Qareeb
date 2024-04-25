@@ -6,8 +6,7 @@ require('dotenv').config();
 
 const app = express();
 
-mongoose.connect("mongodb+srv://habebabakr4:rkKSb8qZuAUfOjYk@qreebdb.eqrzmci.mongodb.net/Qreebdb?retryWrites=true&w=majority&appName=Qreebdb")
-
+mongoose.connect("mongodb+srv://habebabakr4:rkKSb8qZuAUfOjYk@qreebdb.eqrzmci.mongodb.net/?retryWrites=true&w=majority&appName=Qreebdb")
      
 
 
