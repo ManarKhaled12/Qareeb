@@ -8,7 +8,7 @@ export default function Header() {
             <Link to='/' >
               <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
                 <span className="text-slate-500">Q</span>
-                <span className="text-slate-700">reeb</span>
+                <span className="text-slate-700">areeb</span>
                 
               </h1>
             </Link>
