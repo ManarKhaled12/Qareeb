@@ -45,7 +45,7 @@ export default function Profile() {
       },
       () => {
         getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-          setFormData({ ...formData, Avatar: downloadURL });
+          setFormData({ ...formData, avatar: downloadURL });
         });
       }
     );
@@ -61,7 +61,7 @@ export default function Profile() {
   <input onChange={(e)=>setfile(e.target.files[0])} type='file' ref={fileRef} hidden accept='image/*' />
 <img
   onClick={()=>fileRef.current.click()} 
-src={formData.Avatar|| currentUser.Avatar}
+src={formData.avatar|| currentUser.avatar}
  alt="profile" 
 className='rounded-full h-24 w-24 object-cover
  cursor-pointer self-center mt-2'/>
